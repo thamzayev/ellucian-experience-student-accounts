@@ -17,7 +17,7 @@ module.exports = {
           {
             "key": "currency",
             "label": "Currency to show balances",
-            "type":"url",
+            "type":"text",
             "required":true
           }]
         },

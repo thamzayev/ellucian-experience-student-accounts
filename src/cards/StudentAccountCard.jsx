@@ -72,7 +72,7 @@ const StudentAccountCard = (props) => {
 
         setTotalCharges(() => totalCharges);
         setTotalPayments(() => totalPayments);
-        setTotal(() => totalPayments - totalCharges);
+        setTotal(() => totalCharges-totalPayments);
         setLoadingStatus(false);
       } catch (error) {
         console.log("ethosQuery failed", error);
